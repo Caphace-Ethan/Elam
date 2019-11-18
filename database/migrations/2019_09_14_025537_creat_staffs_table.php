@@ -14,14 +14,11 @@ class CreatStaffsTable extends Migration
     public function up()
     {
          Schema::create('staffs', function (Blueprint $table) {
-            $table->increments('id');
+            $table->integer('staff_id')->unsigned();
             $table->string('first_name');
             $table->string('middle_name');
             $table->string('last_name');
-            $table->string('staff_number'); /**       */
-            $table->integer('department_id')->unsigned(); 
-            $table->foreign('department_id')->references('id')->on('departments');
-            $table->year('birth_year');
+            $table->year('year_of_birth')->nullable();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

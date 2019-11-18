@@ -14,13 +14,11 @@ class CreatTeachersTable extends Migration
     public function up()
     {
         Schema::create('teachers', function (Blueprint $table) {
-            $table->increments('id')->unsigned();
+            $table->integer('id')->unsigned();
             $table->string('first_name');
             $table->string('middle_name');
             $table->string('last_name');
-            $table->integer('staff_id')->unsigned(); /**       */
-            $table->foreign('staff_id')->references('id')->on('staffs');
-            $table->year('birth_year');
+            $table->year('year_of_birth');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

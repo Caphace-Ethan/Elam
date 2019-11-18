@@ -68,14 +68,14 @@
             <div style="color: black;font-family: 'Montserrat', 'Arial', sans-serif;text-align: left;font-size: 14px" class="col-md-4">
                 <h6>Matangazo na Habari Mpya</h6>
                  
-                    <p><img src="images/new.gif" width="30px"><a href="/infonews#pills-home"style="color: darkblue;">Angalia Kozi mbalimbali za </a> Astashahada, Stashahada na Shahada</p>
-                    <p><img src="images/new.gif" width="30px"><a href="/infonews"style="color: darkblue;">Mahafali ya 5, yatafanyika Disemba 15,2019</a> kwa wanafunzi walionza 2015/2016  </p>
-                    <p><img src="images/new.gif" width="30px"><a href="/infonews"style="color: darkblue;">Join Various Programmes Conducted by ECHASE</a> </p>
-                    <p><img src="images/new.gif" width="30px"><a href="/infonews"style="color: darkblue;">Various Courses Offered by ECHASE</a> </p>
-                    <p><img src="images/new.gif" width="30px"><a href="/infonews"style="color: darkblue;">Admission Regulations and Requirements</a> for ertificate,Ordinary Diploma  and Bachelor</p>
-                    <p><img src="images/new.gif" width="30px"><a href="/infonews"style="color: darkblue;">Prospectus 2019/2020</a> for Certificate,Ordinary Diploma  and Bachelor </p>
-                    <p><img src="images/new.gif" width="30px"><a href="/infonews"style="color: darkblue;">Fee Structure 2019/2020</a> for Certificate, Ordinary Diploma and Bachelor </p>
-                    <p><img src="images/new.gif" width="30px"><a href="/infonews"style="color: darkblue;">Examination Regulations 2019/2020</a> for Certificate, Ordinary Diploma and Bachelor </p>
+                    <p><img src="/images/new.gif" width="30px"><a href="/sw/infonews#pills-home"style="color: darkblue;">Angalia Kozi mbalimbali za </a> Astashahada, Stashahada na Shahada</p>
+                    <p><img src="/images/new.gif" width="30px"><a href="/sw/infonews"style="color: darkblue;">Mahafali ya 5, yatafanyika Disemba 15,2019</a> kwa wanafunzi walionza 2015/2016  </p>
+                    <p><img src="/images/new.gif" width="30px"><a href="/sw/infonews"style="color: darkblue;">Join Various Programmes Conducted by ECHASE</a> </p>
+                    <p><img src="/images/new.gif" width="30px"><a href="/sw/infonews"style="color: darkblue;">Various Courses Offered by ECHASE</a> </p>
+                    <p><img src="/images/new.gif" width="30px"><a href="/sw/infonews"style="color: darkblue;">Admission Regulations and Requirements</a> for ertificate,Ordinary Diploma  and Bachelor</p>
+                    <p><img src="/images/new.gif" width="30px"><a href="/sw/infonews"style="color: darkblue;">Prospectus 2019/2020</a> for Certificate,Ordinary Diploma  and Bachelor </p>
+                    <p><img src="/images/new.gif" width="30px"><a href="/sw/infonews"style="color: darkblue;">Fee Structure 2019/2020</a> for Certificate, Ordinary Diploma and Bachelor </p>
+                    <p><img src="/images/new.gif" width="30px"><a href="/sw/infonews"style="color: darkblue;">Examination Regulations 2019/2020</a> for Certificate, Ordinary Diploma and Bachelor </p>
 
               
             </div>
@@ -155,6 +155,9 @@
       <div class="carousel-inner" role="listbox">
 
         <!--First slide-->
+  <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
         <div class="carousel-item active">
       <div class="row">
           <div class="col-md-4">
@@ -163,9 +166,9 @@
                 src="images/img%20(34).jpg"
                 alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 01</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -177,9 +180,9 @@
                 src="images/img%20(18).jpg"
                 alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 02</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -191,9 +194,9 @@
                 src="images/img%20(35).jpg"
                 alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 03</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -211,9 +214,9 @@
               <img class="card-img-top"
                 src="images/img%20(60).jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 04</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -224,9 +227,9 @@
               <img class="card-img-top"
                 src="images/img%20(47).jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 05</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -237,9 +240,9 @@
               <img class="card-img-top"
                 src="images/img%20(48).jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 06</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -256,9 +259,9 @@
               <img class="card-img-top"
                 src="images/img%20(53).jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 07</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -269,9 +272,9 @@
               <img class="card-img-top"
                 src="images/img%20(45).jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 08</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -282,9 +285,9 @@
               <img class="card-img-top"
                 src="images/img%20(51).jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 09</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>

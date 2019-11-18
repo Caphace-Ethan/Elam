@@ -14,17 +14,13 @@ class CreatModulesTable extends Migration
     public function up()
     {
         Schema::create('modules', function (Blueprint $table) {
-            $table->increments('id')->unsigned();
+            $table->integer('module_id')->unsigned();
             $table->string('module_name');
             $table->string('module_code');
             $table->integer('educationlevel_id')->unsigned();
-            $table->foreign('educationlevel_id')->references('id')->on('educationlevel');
-            $table->integer('module_teacher_id')->unsigned();
-            $table->foreign('module_teacher_id')->references('id')->on('teachers');
-            $table->integer('module_assistanceteacher_id')->unsigned();
-            $table->foreign('module_assistanceteacher_id')->references('id')->on('teachers');  
+            // $table->foreign('educationlevel_id')->references('id')->on('educationlevel');
             $table->integer('module_semester_id')->unsigned();
-            $table->foreign('module_semester_id')->references('id')->on('semester');  
+            // $table->foreign('module_semester_id')->references('module_id')->on('semester');  
             $table->timestamps();
     
     });    }

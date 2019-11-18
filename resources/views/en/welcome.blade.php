@@ -163,9 +163,9 @@
                 src="images/img%20(34).jpg"
                 alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 01</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -177,9 +177,9 @@
                 src="images/img%20(18).jpg"
                 alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 02</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -191,9 +191,9 @@
                 src="images/img%20(35).jpg"
                 alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 03</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -211,9 +211,9 @@
               <img class="card-img-top"
                 src="images/img%20(60).jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 04</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -224,9 +224,9 @@
               <img class="card-img-top"
                 src="images/img%20(47).jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 05</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -237,9 +237,9 @@
               <img class="card-img-top"
                 src="images/img%20(48).jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 06</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -256,9 +256,9 @@
               <img class="card-img-top"
                 src="images/img%20(53).jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 07</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -269,9 +269,9 @@
               <img class="card-img-top"
                 src="images/img%20(45).jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 08</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>
@@ -282,9 +282,9 @@
               <img class="card-img-top"
                 src="images/img%20(51).jpg" alt="Card image cap">
               <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's content.</p>
+                <h5 class="card-title">ECHASE Something 09</h5>
+                <p class="card-text">Some quick text .............................................
+                .......................................................</p>
                 <a class="btn btn-primary">Read More..</a>
               </div>
             </div>

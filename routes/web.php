@@ -11,6 +11,8 @@
 |
 */
 
+
+
 //English 
 
 
@@ -20,7 +22,45 @@ Route::get('/en', function () {
 
 Auth::routes();
 
-Route::get('/en/home', 'HomeController@index')->name('home');
+
+Route::get('/staff_login', 'Staff\LoginController@showLoginForm')->name('staff.login');
+Route::get('/staff_register', 'Staff\RegisterController@showRegisterForm')->name('staff.register');
+
+Route::post('/staff_login', 'Staff\LoginController@login')->name('staff.login.submit');
+Route::post('/staff_register', 'Staff\RegisterController@create')->name('staff.register.submit');
+
+Route::get('/student-home', 'UserController@index')->name('student-home');
+Route::get('/staff-home', 'StaffController@index')->name('staff-home');
+
+Route::get('/books', 'UploadController@index')->name('books');
+
+Route::get('/student-certificate', 'UserController@showcertificatebooks')->name('student-certificate');
+Route::get('/student-diploma', 'UserController@showdiplomabooks')->name('student-diploma');
+Route::get('/student-bachelor', 'UserController@showbachelorbooks')->name('student-bachelor');
+
+Route::get('/student-books', 'UserController@showbooks')->name('student-books');
+
+Route::get('/modules', 'ModuleController@index')->name('modules');
+Route::get('/education-levels', 'EducationLevelController@index')->name('education-levels');
+Route::get('/semesters', 'SemesterController@index')->name('semesters');
+Route::get('/classes', 'ClassController@index')->name('classes');
+Route::get('/courses', 'CourseController@index')->name('courses');
+Route::get('/students', 'StaffController@showstudents')->name('students');
+
+Route::get('/certificate-courses', 'CourseController@certificatecourses')->name('certificate-courses');
+Route::get('/diploma-courses', 'CourseController@diplomacourses')->name('diploma-courses');
+Route::get('/bachelor-courses', 'CourseController@bachelorcourses')->name('bachelor-courses');
+Route::get('/postgraduate-courses', 'CourseController@postgraduatecourses')->name('postgraduate-courses');
+
+Route::get('/student-certificate-courses', 'UserController@certificatecourses')->name('student-certificate-courses');
+Route::get('/student-diploma-courses', 'UserController@diplomacourses')->name('student-diploma-courses');
+Route::get('/student-bachelor-courses', 'UserController@bachelorcourses')->name('student-bachelor-courses');
+Route::get('/student-postgraduate-courses', 'UserController@postgraduatecourses')->name('student-postgraduate-courses');
+
+
+Route::post('/upload-file','UploadController@store')->name('upload-file.submit');
+
+
 Route::get('/en/infonews', function () {
     return view('en/infoNews');
 });
@@ -68,11 +108,19 @@ Route::get('/en/bachelor', function () {
     return view('en/bachelorcourses');
 });
 
+
+// CRUD
+
+Route::resource('semesters', 'SemesterController');
+Route::resource('courses', 'CourseController');
+Route::resource('classes', 'ClassController');
+
+
+
 // Swahili
 Route::get('/',function(){
 return view('sw/welcome');
 });
-Route::get('/sw/home', 'HomeController@index')->name('home');
 Route::get('/sw/infonews', function () {
     return view('sw/infoNews');
 });
@@ -119,3 +167,7 @@ Route::get('/sw/diploma', function () {
 Route::get('/sw/bachelor', function () {
     return view('sw/bachelorcourses');
 });
+
+// CRUD
+
+Route::resource('semester', 'SemesterController');

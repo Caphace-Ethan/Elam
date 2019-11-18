@@ -35,7 +35,8 @@
   
 
   <div class="container" style="padding-top: 90px">
-       @yield('content')
+       
+@yield('content')
 
   </div>
 

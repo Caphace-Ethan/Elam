@@ -13,34 +13,34 @@
        <div class="card-body">
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                    
-          <li class="nav-item"><a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="false" style="color: darkblue;"> <img src="images/new.gif" width="30px"> View New Courses for Certificate, Ordinary Diploma and Bachelor Degree </a>
+          <li class="nav-item"><a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="false" style="color: darkblue;"> <img src="/images/new.gif" width="30px"> View New Courses for Certificate, Ordinary Diploma and Bachelor Degree </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: darkblue;"><img src="images/new.gif" width="30px"> 5th Graduation Ceremony on December 15,2019
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: darkblue;"><img src="/images/new.gif" width="30px"> 5th Graduation Ceremony on December 15,2019
            for students 2015/2016 </a>  
          </li>
           <li class="nav-item">
-            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false" style="color: darkblue;"><img src="images/new.gif" width="30px"> Join Various Programmes Conducted by ECHASE
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false" style="color: darkblue;"><img src="/images/new.gif" width="30px"> Join Various Programmes Conducted by ECHASE
             </a> 
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: darkblue;"><img src="images/new.gif" width="30px"> Various Courses Offered by ECHASE
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: darkblue;"><img src="/images/new.gif" width="30px"> Various Courses Offered by ECHASE
             </a> 
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: darkblue;"><img src="images/new.gif" width="30px"> Admission Regulations and Requirements
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: darkblue;"><img src="/images/new.gif" width="30px"> Admission Regulations and Requirements
            for ertificate,Ordinary Diploma  and Bachelor  </a> 
          </li>
           <li class="nav-item">
-           <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: darkblue;"><img src="images/new.gif" width="30px"> Prospectus 2019/2020
+           <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: darkblue;"><img src="/images/new.gif" width="30px"> Prospectus 2019/2020
              for Certificate,Ordinary Diploma  and Bachelor</a> 
            </li>
           <li class="nav-item">
-            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: darkblue;"><img src="images/new.gif" width="30px"> Fee Structure 2019/2020
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: darkblue;"><img src="/images/new.gif" width="30px"> Fee Structure 2019/2020
              for Certificate, Ordinary Diploma and Bachelor </a>
            </li>
           <li class="nav-item">
-            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: darkblue;"><img src="images/new.gif" width="30px"> Examination Regulations 2019/2020
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style="color: darkblue;"><img src="/images/new.gif" width="30px"> Examination Regulations 2019/2020
            for Certificate, Ordinary Diploma and Bachelor  </a> 
          </li>
 

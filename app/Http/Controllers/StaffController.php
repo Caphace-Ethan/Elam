@@ -1,8 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
+//use App\Upload;
 use App\Staff;
+use App\User;
+use App\Course;
 use Illuminate\Http\Request;
 
 class StaffController extends Controller
@@ -12,9 +14,38 @@ class StaffController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+   public function __construct()
+    {
+        $this->middleware('auth:staff');
+    }
+
     public function index()
     {
+        $staffs = Staff::all();
+        $users = User::all();
+        $count = Course::select()->where('educationlevel_id', '1')->count();
+        $count1 = Course::select()->where('educationlevel_id', '2')->count();
+        $count2 = Course::select()->where('educationlevel_id', '3')->count();
+        $count3 = Course::select()->where('educationlevel_id', '4')->count();
+        return view(
+             'staff.staff-home',
+             compact('staffs'),
+             compact('users'),           
+            )->with('count',$count)->with('count1',$count1)->with('count2', $count2)->with('count3',$count3);
+
         //
+    }
+
+    public function showstudents()
+    {
+         
+        $users = User::all();
+        
+        return view(
+            'staff.student.students',
+            compact('users'), 
+           );
+
     }
 
     /**
@@ -47,6 +78,9 @@ class StaffController extends Controller
     public function show(Staff $staff)
     {
         //
+        // $staffs = Staff::all();
+
+        // return view('staff.booksmaterials', compact('staffs'));
     }
 
     /**

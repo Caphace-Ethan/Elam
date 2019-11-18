@@ -25,7 +25,7 @@
           </li>
            
           <li class="nav-item">
-            <a class="nav-link" href="/contact" role="tab" aria-controls="pills-contact" aria-selected="false" style="color: darkblue;"><i class="fas fa-location-arrow"></i>  Contact Information
+            <a class="nav-link" href="/sw/contact" role="tab" aria-controls="pills-contact" aria-selected="false" style="color: darkblue;"><i class="fas fa-location-arrow"></i>  Contact Information
             </a> 
           </li>
 

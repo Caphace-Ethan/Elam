@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Module;
 use Illuminate\Http\Request;
 
@@ -12,9 +11,16 @@ class ModuleController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+   public function __construct()
+    {
+        $this->middleware('auth:staff');
+    }
+
     public function index()
     {
         //
+        $modules = Module::all();
+        return view('staff.module.modules',compact('modules'));
     }
 
     /**

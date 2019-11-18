@@ -12,11 +12,17 @@ class SemesterController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct()
+    {
+        $this->middleware('auth:staff');
+    }
+
     public function index()
     {
         //
+        $semester = Semester::all();
+        return view('staff.semester.semester',compact('semester'));
     }
-
     /**
      * Show the form for creating a new resource.
      *
@@ -25,6 +31,7 @@ class SemesterController extends Controller
     public function create()
     {
         //
+        return view('staff.semester.create');
     }
 
     /**
@@ -36,7 +43,22 @@ class SemesterController extends Controller
     public function store(Request $request)
     {
         //
-    }
+        $validatedData = $request->validate([
+         'semester_id' => 'required|max:1',
+         'semester_name' => 'required|max:255',
+         'semester_start' => 'required|date',
+         'semester_end' => 'required|date',
+     ]);
+
+      if ($validatedData){
+
+     $semester = Semester::create($validatedData);
+
+     return redirect('/semesters')->with('status', 'Semester is successfully Registered');
+      } else{
+     return redirect('/semesters')->with('status-fail', 'Semester Registration, Failed');
+      }
+     }
 
     /**
      * Display the specified resource.
@@ -55,9 +77,12 @@ class SemesterController extends Controller
      * @param  \App\Semester  $semester
      * @return \Illuminate\Http\Response
      */
-    public function edit(Semester $semester)
+    public function edit($semester_id)
     {
         //
+        $semester = Semester::findOrFail($semester_id);
+
+    return view('staff.semester.edit', compact('semester'));
     }
 
     /**
@@ -67,10 +92,25 @@ class SemesterController extends Controller
      * @param  \App\Semester  $semester
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Semester $semester)
+    public function update(Request $request,$semester_id)
     {
         //
-    }
+        $validatedData = $request->validate([
+         'semester_id' => 'required|max:1',
+         'semester_name' => 'required|max:255',
+         'semester_start' => 'required|date',
+         'semester_end' => 'required|date',
+     ]);
+
+        if ($validatedData){
+        Semester::whereSemesterId($semester_id)->update($validatedData);
+
+        return redirect('/semesters')->with('status', 'Semester is successfully Updated');
+        }else{
+     return redirect('/semesters')->with('status-fail', 'Semester Updation, Failed');
+        }
+     }
+
 
     /**
      * Remove the specified resource from storage.
@@ -78,8 +118,20 @@ class SemesterController extends Controller
      * @param  \App\Semester  $semester
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Semester $semester)
+    public function destroy($semester_id)
     {
         //
-    }
+        $semester = Semester::findOrFail($semester_id);
+
+        if($semester){
+        $semester->delete();
+
+    return redirect('/semesters')->with('status', 'Semester is successfully Deleted');
+
+        }else{
+
+    return redirect('/semesters')->with('status-fail', 'Semester Deletion, Failed');  
+        }
+
+    }    
 }

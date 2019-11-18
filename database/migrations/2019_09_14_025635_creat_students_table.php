@@ -18,12 +18,10 @@ class CreatStudentsTable extends Migration
             $table->string('first_name');
             $table->string('middle_name');
             $table->string('last_name');
-            $table->string('registration_number'); /**       */
+            $table->string('registration_number'); 
             $table->integer('course_id')->unsigned();
-            $table->foreign('course_id')->references('id')->on('courses');
             $table->integer('class_id')->unsigned();
-            $table->foreign('class_id')->references('id')->on('class');
-            $table->year('birth_year');
+            $table->year('year_of_birth');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

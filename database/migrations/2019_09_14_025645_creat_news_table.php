@@ -17,10 +17,6 @@ class CreatNewsTable extends Migration
             $table->increments('id')->unsigned();
             $table->string('news_title');
             $table->longText('news_content');
-            $table->integer('staff_id')->unsigned(); /**       */
-            $table->foreign('staff_id')->references('id')->on('staffs');
-            $table->integer('department_id')->unsigned(); 
-            $table->foreign('department_id')->references('id')->on('departments');
             $table->timestamps();
     
    });

@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-md navbar-dark mdb-color pt-4 fixed-top" id="banner">
   <div class="container">
   <!-- Brand -->
-  <a class="navbar-brand" href="{{ url('/en') }}"><span><h3> <img src="images/echaseLogo.png" width="50px" style="border-radius: 60px"alt=" "> </span> Elam Seminary </h3></a>
+  <a class="navbar-brand" href="{{ url('/en') }}"><span><h3> <img src="/images/echaseLogo.png" width="50px" style="border-radius: 60px"alt=" "> </span> Elam Seminary </h3></a>
 
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -132,7 +132,7 @@
         </div>
       </li>
       <li class="nav-item">
-          <a class="nav-link" href="#"> EOMS </a>
+          <a class="nav-link" href="/login"> Login </a>
      </li>
       
       <li class="nav-item dropdown mega-dropdown">

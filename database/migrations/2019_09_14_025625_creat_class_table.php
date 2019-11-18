@@ -14,7 +14,7 @@ class CreatClassTable extends Migration
     public function up()
     {
            Schema::create('class', function (Blueprint $table) {
-            $table->increments('id')->unsigned();
+            $table->integer('class_id')->unsigned()->unique();
             $table->string('class_name');
             $table->string('class_code'); 
             $table->integer('educationlevel_id')->unsigned();

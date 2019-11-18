@@ -12,9 +12,16 @@ class EducationLevelController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct()
+    {
+        $this->middleware('auth:staff');
+    }
+
     public function index()
     {
         //
+        $educationlevel = Educationlevel::all();
+        return view('staff.educationlevel.education-level',compact('educationlevel'));
     }
 
     /**

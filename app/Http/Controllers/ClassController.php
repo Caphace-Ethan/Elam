@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Class;
 use Illuminate\Http\Request;
+use App\Clas;
 
 class ClassController extends Controller
 {
@@ -12,9 +12,16 @@ class ClassController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct()
+    {
+        $this->middleware('auth:staff');
+    }
+
     public function index()
     {
         //
+        $classes = Clas::all();
+        return view('staff.class.classes',compact('classes'));
     }
 
     /**
@@ -25,6 +32,7 @@ class ClassController extends Controller
     public function create()
     {
         //
+         return view('staff.class.create');
     }
 
     /**
@@ -36,6 +44,24 @@ class ClassController extends Controller
     public function store(Request $request)
     {
         //
+        $validatedData = $request->validate([
+          'class_id' => 'required|max:5',
+         'class_name' => 'required|max:255',
+         'class_code' => 'required|max:10',
+         'educationlevel_id' => 'required|max:1',
+         'start_date' => 'required|date',
+         'end_date' => 'required|date',
+         
+     ]);
+
+      if ($validatedData){
+
+     $classes = Clas::create($validatedData);
+
+     return redirect('/classes')->with('status', 'Class is successfully Registered');
+      } else{
+     return redirect('/classes')->with('status-fail', 'Class Registration, Failed');
+      }
     }
 
     /**
@@ -44,7 +70,7 @@ class ClassController extends Controller
      * @param  \App\Class  $class
      * @return \Illuminate\Http\Response
      */
-    public function show(Class $class)
+    public function show(Clas $class)
     {
         //
     }
@@ -55,9 +81,12 @@ class ClassController extends Controller
      * @param  \App\Class  $class
      * @return \Illuminate\Http\Response
      */
-    public function edit(Class $class)
+    public function edit($class_id)
     {
         //
+         $classes = Clas::findOrFail($class_id);
+
+    return view('staff.class.edit', compact('classes'));
     }
 
     /**
@@ -67,9 +96,28 @@ class ClassController extends Controller
      * @param  \App\Class  $class
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Class $class)
+    public function update(Request $request, $class_id)
     {
         //
+        $validatedData = $request->validate([
+          'class_id' => 'required|max:5',
+         'class_name' => 'required|max:255',
+         'class_code' => 'required|max:10',
+         'educationlevel_id' => 'required|max:1',
+         'start_date' => 'required|date',
+         'end_date' => 'required|date',
+         
+     ]);
+
+     if ($validatedData){
+
+     Clas::whereClassId($class_id)->update($validatedData);
+
+     return redirect('/classes')->with('status', 'Class is successfully Updated');
+      } else{
+     return redirect('/classes')->with('status-fail', 'Class Updation, Failed');
+      }
+
     }
 
     /**
@@ -78,8 +126,20 @@ class ClassController extends Controller
      * @param  \App\Class  $class
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Class $class)
+    public function destroy($class_id)
     {
         //
+        $classes = Clas::findOrFail($class_id);
+
+         if($classes){
+
+        $classes->delete();
+
+    return redirect('/classes')->with('status', 'Class is successfully Deleted');
+
+        }else{
+
+    return redirect('/classes')->with('status-fail', 'Class Deletion, Failed');  
+        }
     }
 }

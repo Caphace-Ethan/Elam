@@ -11,9 +11,9 @@
       <!-- Grid column -->
       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 class="mb-4 font-weight-bold">Elam Christian Harvest Seminary (ECHASE)</h6>
-        <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-          consectetur
-          adipisicing elit.</p>
+        <p>Welcome To ECHASE, the home of ..............................................
+        ..............................................................................
+      ............................................................................</p>
       </div>
       <!-- Grid column -->
 
@@ -21,18 +21,18 @@
 
       <!-- Grid column -->
       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="mb-4 font-weight-bold">Products</h6>
+        <h6 class="mb-4 font-weight-bold">Menu 01</h6>
         <p>
-          <a href="#!">MDBootstrap</a>
+          <a href="#!">Menu-Content-1</a>
         </p>
         <p>
-          <a href="#!">MDWordPress</a>
+          <a href="#!">Menu-Content-2</a>
         </p>
         <p>
-          <a href="#!">BrandFlow</a>
+          <a href="#!">Menu-Content-3</a>
         </p>
         <p>
-          <a href="#!">Bootstrap Angular</a>
+          <a href="#!">Menu-Content-1</a>
         </p>
       </div>
       <!-- Grid column -->
@@ -46,13 +46,13 @@
           <a href="#!">Your Account</a>
         </p>
         <p>
-          <a href="#!">Become an Affiliate</a>
+          <a href="#!">Link 1</a>
         </p>
         <p>
-          <a href="#!">Shipping Rates</a>
+          <a href="#!">Link 2</a>
         </p>
-        <p>
-          <a href="#!">Help</a>
+        
+          <a href="#!">Get Help</a>
         </p>
       </div>
 

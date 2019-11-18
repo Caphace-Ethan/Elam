@@ -14,11 +14,9 @@ class CreatDepartmentsTable extends Migration
     public function up()
     {
           Schema::create('departments', function (Blueprint $table) {
-            $table->increments('id')->unsigned();
+            $table->increments('department_id')->unsigned();
             $table->string('department_name');
             $table->string('department_code'); 
-            $table->integer('head_of_department_id')->unsigned();
-            $table->integer('vice_head_of_department_id')->unsigned();
             $table->timestamps();
        });
       }

@@ -11,7 +11,7 @@
        <h6><i class="fas fa-caret-right"></i>  Welcome To Psychology <br> Department </h6>
        </div>
        <div class="card-body">
-              <img src="images/user.png" width="150px" 
+              <img src="/images/user.png" width="150px" 
                 alt="Head Of Department">
               
                 <p class="card-title"><b>Dr. Kephace Andrew </b> </p>
